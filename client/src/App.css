@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: pre;
+    font-size: 80px;
+}
+
+.title .title-yellow {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px rgb(85, 170, 245);
+}
+
+.title .title-white {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px rgb(85, 170, 245);
+}
+
+.textarea-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.textarea-box :last-child {
+    margin-left: 2%;
+}
+
+textarea {
+    border: 15px solid transparent;
+    width: 350px;
+    font-size: 20px;
+    resize: none;
+    padding: 0.6%;
+}
+
+.submit-button {
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 36px;
+    background-color: rgb(5, 52, 124);
+    border: 5px solid rgb(239, 56, 51);
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+}

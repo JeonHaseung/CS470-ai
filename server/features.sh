@@ -1,0 +1,3 @@
+python3 frequent_words_extractor.py
+python3 aggressive_words_extractor.py
+python3 real_good_extractor.py
