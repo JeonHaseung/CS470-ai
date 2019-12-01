@@ -1,3 +1,5 @@
+# run a flask server and with given data from client, provide prediction data in RESTful api form
+
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
 from flask_cors import CORS
@@ -5,6 +7,7 @@ from sklearn import preprocessing
 import pickle
 from feature_extractor import extract_features
 import numpy as np
+
 
 TRAINING_INPUT_FILE_PATH = './input_data.npy'
 MODEL_FILE_PATH = './models/rf_model.sav'

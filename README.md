@@ -22,15 +22,18 @@ cd ~/cs470-ai/client
 npm install
 ```
 
-### Python file description in alphabetic order
-* aggressive_words_extractor.py: Extract influential words referring frequent_words.txt and store into good_or_bad_words.txt
+### Server file descriptions (in alphabetic order)
+* aggressive_words_extractor.py: extract influential words referring frequent_words.txt and store into good_or_bad_words.txt
+* api.py: run a flask server and with given data from client, provide prediction data in RESTful api form
 * combine_csv.py: combine tac_pairs csv files into one csv file
-* constants.py: Access token, secret key for using tweepy and etc setting
-* frequent_words_extractor.py: Extract words written more than 10 times and save in frequent_words.txt
+* constants.py: access token, secret key for using tweepy and etc setting
+* feature_extractor.py: extract features from tac_pairs for model train
+* frequent_words_extractor.py: extract words written more than 10 times and save in frequent_words.txt
 * id_extractor.py: read raw json data(data_search.txt) and group by user id and extract/refine only required data
+* model_generator.py: train and save model with given data
 * real_good_extractor.py: extract real influential words from good_or_bad_words.txt and store into real_good_words.txt
-* search.py: Using twitter api(tweepy), crawl raw json data and make data_search.txt.
-* tac_extractor.py: extract tac pairs from data refering wtf folder
+* search.py: using twitter api(tweepy), crawl raw json data and make data_search.txt.
+* tac_extractor.py: extract tac pairs from data referring wtf folder
 
 ### Step
 1. Crawl twitter raw json data

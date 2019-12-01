@@ -1,3 +1,5 @@
+# read raw json data(data_search.txt) and group by user id and extract/refine only required data
+
 import os
 import json
 import tweepy

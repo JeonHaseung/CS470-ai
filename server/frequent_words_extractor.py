@@ -1,3 +1,4 @@
+# extract words written more than 10 times and save in frequent_words.txt
 import os
 import re
 

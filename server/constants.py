@@ -1,3 +1,5 @@
+# access token, secret key for using tweepy and etc setting
+
 CONSUMER_TOKEN = 'o2k98MkI2DNHUGV1iU1OR3L0E'
 CONSUMER_SECRET = '5gJMFDtTv0zVNbb2AlFfebJTaNsQazlolDLAm2SbMi0ww23Atl'
 

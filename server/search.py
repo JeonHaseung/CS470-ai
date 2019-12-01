@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# using twitter api(tweepy), crawl raw json data and make data_search.txt.
 import tweepy
 from constants import *
 

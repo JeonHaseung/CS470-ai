@@ -1,5 +1,8 @@
+# combine tac_pairs csv files into one csv file
+
 import csv
 import os
+
 
 DIR_PATH = './tac_pair'
 

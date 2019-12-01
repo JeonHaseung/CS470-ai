@@ -1,3 +1,5 @@
+# train and save model with given data
+
 import numpy as np
 from sklearn import preprocessing, linear_model
 from sklearn.model_selection import cross_val_score

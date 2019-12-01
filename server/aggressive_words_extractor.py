@@ -1,3 +1,4 @@
+# extract influential words referring frequent_words.txt and store into good_or_bad_words.txt
 import os
 
 BASE_DIR_PATH = './timelines'

@@ -1,3 +1,5 @@
+# extract real influential words from good_or_bad_words.txt and store into real_good_words.txt
+
 import os
 
 f = open('./good_or_bad_words.txt', 'r')
