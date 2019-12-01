@@ -52,13 +52,15 @@ for i in range(10, 20):
          rand_forest_scores = cross_val_score(rand_forest, X, y, cv=5)
         
          if (np.mean(rand_forest_scores) > max_value):
-             rand_forest.fit(X, y)
              max_value = np.mean(rand_forest_scores)
              max_key = (i, j)
              print (max_value)
              print (max_key)
 
          print (i, j)
+(i, j) = max_key
+rand_forest = RandomForestClassifier(n_estimators=i, max_depth=j)
+rand_forest.fit(X,y)
 pickle.dump(rand_forest, f)
 f.close()
 print (max_value, max_key)
